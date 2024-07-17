@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\kkkkr\AppData\Local\Temp\testng-eclipse-1117598805\testng-customsuite.xml</span>
+                    <span>C:\Users\kkkkr\AppData\Local\Temp\testng-eclipse--722458201\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,7 +109,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testsuite.Tests" class="method navigator-link" hash-for-method="Search_function">Search_function</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testsuite.Tests" class="method navigator-link" hash-for-method="Search_with_blank_text">Search_with_blank_text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testsuite.Tests" class="method navigator-link" hash-for-method="Search_with_invalid_item">Search_with_invalid_item</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testsuite.Tests" class="method navigator-link" hash-for-method="Search_with_valid_criteria">Search_with_valid_criteria</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testsuite.Tests" class="method navigator-link" hash-for-method="Search_with_valid_item">Search_with_valid_item</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -139,9 +154,30 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Search_function">
-                  </a> <!-- Search_function -->
-                  <span class="method-name">Search_function</span>
+                  <a name="Search_with_blank_text">
+                  </a> <!-- Search_with_blank_text -->
+                  <span class="method-name">Search_with_blank_text</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_with_invalid_item">
+                  </a> <!-- Search_with_invalid_item -->
+                  <span class="method-name">Search_with_invalid_item</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_with_valid_criteria">
+                  </a> <!-- Search_with_valid_criteria -->
+                  <span class="method-name">Search_with_valid_criteria</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_with_valid_item">
+                  </a> <!-- Search_with_valid_item -->
+                  <span class="method-name">Search_with_valid_item</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +185,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\kkkkr\AppData\Local\Temp\testng-eclipse-1117598805\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\kkkkr\AppData\Local\Temp\testng-eclipse--722458201\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -198,20 +234,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Search_function')
+data.setCell(0, 1, 'Register')
 data.setCell(0, 2, 'testsuite.Tests')
-data.setCell(0, 3, 20341);
+data.setCell(0, 3, 9670);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Register')
+data.setCell(1, 1, 'Search_with_valid_criteria')
 data.setCell(1, 2, 'testsuite.Tests')
-data.setCell(1, 3, 14832);
+data.setCell(1, 3, 8209);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Search_with_invalid_item')
+data.setCell(2, 2, 'testsuite.Tests')
+data.setCell(2, 3, 8103);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Search_with_valid_item')
+data.setCell(3, 2, 'testsuite.Tests')
+data.setCell(3, 3, 7961);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Search_with_blank_text')
+data.setCell(4, 2, 'testsuite.Tests')
+data.setCell(4, 3, 3925);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -244,15 +292,27 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">Register</span>
-                <span class="method-start">3869 ms</span>
+                <span class="method-start">7847 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">Search_function</span>
-                <span class="method-start">18710 ms</span>
+                <span class="method-name">Search_with_valid_item</span>
+                <span class="method-start">17524 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Search_with_invalid_item</span>
+                <span class="method-start">25488 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Search_with_valid_criteria</span>
+                <span class="method-start">33594 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Search_with_blank_text</span>
+                <span class="method-start">41808 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">39055 ms</span>
+                <span class="method-start">45736 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

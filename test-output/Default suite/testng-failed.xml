@@ -5,7 +5,10 @@
     <classes>
       <class name="testsuite.Tests">
         <methods>
-          <include name="Search_function"/>
+          <include name="Search_with_invalid_item"/>
+          <include name="Search_with_valid_criteria"/>
+          <include name="Search_with_blank_text"/>
+          <include name="Search_with_valid_item"/>
           <include name="setup"/>
           <include name="close"/>
           <include name="Register"/>
