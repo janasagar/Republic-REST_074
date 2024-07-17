@@ -113,5 +113,17 @@ public class Tests extends Base_test {
         test.log(Status.PASS, "No item found and verified");
         Thread.sleep(3000); // Wait for 3 seconds
     }
+    
+    // Test method for log out from application
+    @Test(dependsOnMethods = "Search_with_blank_text")
+    public void Log_out() {
+    	test = extent.createTest("Log Out", "Log out from application and close the browser");
+    	
+    	// Navigate to home page
+    	hp.Go_to_homepage();
+    	
+    	// Log out from application
+    	hp.Logout();
+    }
 
 }
