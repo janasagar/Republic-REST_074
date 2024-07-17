@@ -24,6 +24,7 @@ public class Tests extends Base_test {
 		hp.Register();
 		test.log(Status.INFO, "Navigated to registration page");
 		Thread.sleep(4000); // Wait for 4 seconds
+		
 		// Fill out the registration form and submit
 		rp.sign_up(FirstName, LastName, Email, Phone, Password, RePassword);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
