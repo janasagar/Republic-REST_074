@@ -12,6 +12,7 @@ import org.testng.annotations.BeforeTest;
 import objects.Home_Page;
 import objects.Login_Page;
 import objects.Register_Page;
+import objects.SearchResult_page;
 
 public class Base_test {
 	protected WebDriver driver;
@@ -28,6 +29,7 @@ public class Base_test {
 	protected Home_Page hp;
 	protected Register_Page rp;
 	protected Login_Page lp;
+	protected SearchResult_page sp;
 	
 	
 	@BeforeTest
@@ -53,6 +55,7 @@ public class Base_test {
 		hp = new Home_Page(driver);
 		rp = new Register_Page(driver);
 		lp = new Login_Page(driver);
+		sp = new SearchResult_page(driver);
 		
 		driver.get(url);
 		driver.manage().window().maximize();;

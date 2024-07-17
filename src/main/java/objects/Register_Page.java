@@ -1,9 +1,14 @@
 package objects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 public class Register_Page {
 	WebDriver driver;
@@ -84,7 +89,11 @@ public class Register_Page {
 		confirm_pass.sendKeys(re_pass);
 		agree_checkBox.click();
 		submit_button.click();
-		
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOf(con_msg));
+		String msg = con_msg.getText();
+		boolean t = msg.contains("Created!");
+		Assert.assertTrue(t);
 		
 				
 	}
