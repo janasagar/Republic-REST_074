@@ -60,6 +60,11 @@ Example : For this project I use [testng](https://mvnrepository.com/artifact/org
 
 ![image](https://github.com/user-attachments/assets/a3f6e7f6-a1ce-43e5-86fe-eb2c2d67beb2)
 
+### In ```/ExtentReport/``` contain test result in html format.
+
+![image](https://github.com/user-attachments/assets/89fb700b-0be0-4384-9d2c-845b9b290db9)
+
+
 ## Getting started
 1. Install [git](https://www.git-scm.com/) , [node.js](https://nodejs.org/en) & [Maven](https://maven.apache.org/download.cgi) in your system.
 2. Open your terminal
