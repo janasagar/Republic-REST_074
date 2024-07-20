@@ -35,7 +35,7 @@
 ## Project Structure & Code Structure
 I use Maven Project with Page object model framework and Java for writting script
 
-Here are the referance links for how to setup your project - 
+Here are the reference links for how to setup your project - 
 ### 1. Download IDE [SprinTool](https://spring.io/tools) or [Eclipse](https://www.eclipse.org/downloads/)
 ### 2. Create a [Maven Projrct](https://medium.com/@leninstalinesec/benefits-of-maven-for-java-developers-8083f9d33665#:~:text=Maven%20project%20enforces%20a%20standard,src%2Fmain%2Ftest%20folder.).
 ### 3. Add requered [Maven dependencies](https://mvnrepository.com/) in to your  ```pom.xml``` file.
