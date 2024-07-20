@@ -34,10 +34,12 @@
 ![image](https://github.com/user-attachments/assets/10dffb35-9e13-4f09-9782-d130c11d3105)
 ## Project Structure & Code Structure
 I use Maven Project with Page object model framework and Java for writting script
+
 Here are the referance links for how to setup your project - 
-i. Download IDE [SprinTool](https://spring.io/tools) or [Eclipse](https://www.eclipse.org/downloads/)
-ii. Create a [Maven Projrct](https://medium.com/@leninstalinesec/benefits-of-maven-for-java-developers-8083f9d33665#:~:text=Maven%20project%20enforces%20a%20standard,src%2Fmain%2Ftest%20folder.).
-iii. Add requered [Maven dependencies](https://mvnrepository.com/) in to your  ```pom.xml``` file.
+### 1. Download IDE [SprinTool](https://spring.io/tools) or [Eclipse](https://www.eclipse.org/downloads/)
+### 2. Create a [Maven Projrct](https://medium.com/@leninstalinesec/benefits-of-maven-for-java-developers-8083f9d33665#:~:text=Maven%20project%20enforces%20a%20standard,src%2Fmain%2Ftest%20folder.).
+### 3. Add requered [Maven dependencies](https://mvnrepository.com/) in to your  ```pom.xml``` file.
+
 Example : For this project I use [testng](https://mvnrepository.com/artifact/org.testng/testng/7.7.1), [selenium-java](https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.22.0), [webdrivermanager](https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager/5.8.0), [extentreports](https://mvnrepository.com/artifact/com.aventstack/extentreports/5.0.9) and Maven compiler plugin for command line execution.
 
 ![image](https://github.com/user-attachments/assets/a0f2829e-6754-497e-82e5-1d9bea0a891f)
