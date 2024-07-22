@@ -1,4 +1,4 @@
-# Project Code - BreadcrumbsRepublic-REST_074.
+# Project Code - Republic-REST_074.
 ## Project Type - Web Application Automation Tesing with Selenium.
 ## Framework details - Page object model.
 ## Scop
