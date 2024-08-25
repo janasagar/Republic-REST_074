@@ -66,7 +66,7 @@ Example : For this project I use [testng](https://mvnrepository.com/artifact/org
 
 
 ## Getting started
-1. Install [git](https://www.git-scm.com/) , [node.js](https://nodejs.org/en) & [Maven](https://maven.apache.org/download.cgi) in your system.
+1. Install [git](https://www.git-scm.com/) , [jdk](https://www.oracle.com/in/java/technologies/downloads/#jdk22-windows) & [Maven](https://maven.apache.org/download.cgi) in your system.
 2. Open your terminal
 Paste this command
 ```bash
